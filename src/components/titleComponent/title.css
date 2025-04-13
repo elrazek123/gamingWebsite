@@ -1,0 +1,17 @@
+.tours-one
+{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    color: white;
+}
+h2
+{
+    text-align: center;
+}
+h2 span
+{
+color: #863be6;
+}

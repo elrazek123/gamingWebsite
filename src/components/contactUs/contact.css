@@ -1,0 +1,170 @@
+*
+{
+    padding: 0px;
+    margin:0px;
+}
+.contact-use-section
+{
+    margin-top: 36px;
+    padding: 20px;
+}
+.icons-cont
+{
+width: 50px;
+height: 50px;
+border-radius:10px;
+display: flex;
+flex-flow: row wrap;
+justify-content: center;
+align-items: center;
+align-content: center;
+background-color:#331a56;
+color: #b9aabd;
+/* display: inline-block; */
+margin-right: 5px;
+}
+.icons-contact
+{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+.div-contact
+{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: flex-start;
+    height: 300px;
+}
+.sp-contact
+{
+    position: relative;
+}
+.line-contact
+{
+    position: absolute;
+    bottom: -10px;
+    width: 50%;
+    height: 4px;
+    background-color: #8e47ec;
+    left: 0px;
+}
+ul
+{
+    list-style-type: none;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+ul li
+{
+    margin:10px 0px;
+}
+.sp-input-contact
+{
+    width: 60%;
+    height: 70px;
+   color: aliceblue;
+   border: 2px solid #1e174b;
+   border-radius: 3px;
+   background-color: transparent;
+   outline: 0px;
+   /* border: 0px; */
+   background-color: #0d0c35;
+   color: #b9aabd;
+   text-align: center;
+}
+.div-contact button
+{
+    display: inline-block;
+width: 60%;
+height: 40px;
+background: linear-gradient(to right,#d22bf2,#3473ff,#00befb);
+border-top-right-radius: 20px;
+display: flex;
+flex-flow: row wrap;
+justify-content: center;
+align-items: center;
+align-content: center;
+}
+.div-contact
+{
+color: #b9aabd;
+}
+.div-contact h3
+{
+  color: aliceblue;
+}
+.div-contact h4
+{
+  color:#491d8a;
+}
+.contact-use-section
+{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:space-evenly;
+    align-content:center;
+    align-content: center;
+}
+.div-contact
+{
+width: 23%;
+}
+
+input::placeholder
+{
+    color:#b9aabd;
+    text-transform: capitalize;
+}
+@media  screen and (min-width:768px) and (max-width:1023px) 
+{
+
+.contact-use-section  
+{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: auto;
+}
+.div-contact
+{
+width: 40%;
+margin: 20px;
+height: auto;
+}
+.contact-use-section .div-contact
+{
+    height: 320px;
+}
+}
+@media  screen and  (max-width:767px) 
+{
+    .contact-use-section  
+    {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        height: auto;
+    }
+    .div-contact
+    {
+    width: 60%;
+    margin: 20px;
+    height: auto;
+    }
+    .contact-use-section .div-contact
+    {
+        height: 340px;
+    }  
+}
