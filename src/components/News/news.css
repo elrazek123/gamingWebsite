@@ -104,7 +104,7 @@ a
     align-items: flex-start;
     align-content:flex-start;
     background-color:#0f0b35;
-    height: 170px;
+    height: 350px;
 }
 /*media query now:*/
 @media screen and (min-width:768px) and (max-width:1023px)
@@ -135,7 +135,7 @@ a
     }
     .new-article
     {
-        width: 70%;
+        width: 90%;
         margin: 20px;
     }
 }
